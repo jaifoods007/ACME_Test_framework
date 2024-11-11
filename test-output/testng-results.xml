@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="41" passed="31" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-10T05:46:49Z" name="Suite" finished-at="2024-11-10T05:58:44Z" duration-ms="715524">
+    <groups>
+    </groups>
+    <test started-at="2024-11-10T05:46:49Z" name="Test" finished-at="2024-11-10T05:58:44Z" duration-ms="715524">
+      <class name="com.TestCases.ACME_VendorTest">
+        <test-method is-config="true" signature="report()[pri:0, instance:com.TestCases.ACME_VendorTest@130e116b]" started-at="2024-11-10T05:48:18Z" name="report" finished-at="2024-11-10T05:48:18Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_VendorTest@130e116b]" started-at="2024-11-10T05:48:18Z" name="Browser_Login" finished-at="2024-11-10T05:48:26Z" duration-ms="8283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_VendorTest@130e116b]" started-at="2024-11-10T05:48:26Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:48:26Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RO000000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SK Textails]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Medavakkam]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+wait cannot be resolved
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+wait cannot be resolved
+
+at com.TestCases.ACME_VendorTest.ACME_LoginTest(ACME_VendorTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+      </class> <!-- com.TestCases.ACME_VendorTest -->
+      <class name="com.TestCases.ACME_DownloadResouceReportTest">
+        <test-method is-config="true" signature="report()[pri:0, instance:com.TestCases.ACME_DownloadResouceReportTest@5ddf0d24]" started-at="2024-11-10T05:58:30Z" name="report" finished-at="2024-11-10T05:58:30Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_DownloadResouceReportTest@5ddf0d24]" started-at="2024-11-10T05:58:30Z" name="Browser_Login" finished-at="2024-11-10T05:58:38Z" duration-ms="7809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_DownloadResouceReportTest@5ddf0d24]" started-at="2024-11-10T05:58:38Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:58:44Z" duration-ms="6736" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://acme-test.uipath.com/testdata/vendor/Vendor List.xlsx" onclick="track(this)">...</a> is not clickable at point (124, 13). Other element would receive the click: <a class="navbar-brand" href="/">...</a>
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b12fac6685cdd876780ba75c18ececa, clickElement {id=f.063EC148B7D1CA0C1482D8E81FA90EE1.d.5A90FAE1E1086B76086ACC9E57132B64.e.41}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\randy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60766}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60766/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8b12fac6685cdd876780ba75c18ececa)] -> link text: Download Resource Report]
+Session ID: 8b12fac6685cdd876780ba75c18ececa]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://acme-test.uipath.com/testdata/vendor/Vendor List.xlsx" onclick="track(this)">...</a> is not clickable at point (124, 13). Other element would receive the click: <a class="navbar-brand" href="/">...</a>
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b12fac6685cdd876780ba75c18ececa, clickElement {id=f.063EC148B7D1CA0C1482D8E81FA90EE1.d.5A90FAE1E1086B76086ACC9E57132B64.e.41}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\randy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60766}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60766/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8b12fac6685cdd876780ba75c18ececa)] -> link text: Download Resource Report]
+Session ID: 8b12fac6685cdd876780ba75c18ececa
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.ACME.Pages.DashboardPages.Click_DownloadRR(DashboardPages.java:30)
+at com.TestCases.ACME_DownloadResouceReportTest.ACME_LoginTest(ACME_DownloadResouceReportTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+      </class> <!-- com.TestCases.ACME_DownloadResouceReportTest -->
+      <class name="com.TestCases.ACME_BankTest">
+        <test-method is-config="true" signature="report()[pri:0, instance:com.TestCases.ACME_BankTest@10a9d961]" started-at="2024-11-10T05:47:00Z" name="report" finished-at="2024-11-10T05:47:00Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_BankTest@10a9d961]" started-at="2024-11-10T05:47:00Z" name="Browser_Login" finished-at="2024-11-10T05:47:04Z" duration-ms="3058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_BankTest@10a9d961]" started-at="2024-11-10T05:47:04Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:47:18Z" duration-ms="14457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Moorthy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[600100]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[044-000-0000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[37]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_BankTest@10a9d961]" started-at="2024-11-10T05:47:18Z" name="Browser_Login" finished-at="2024-11-10T05:47:22Z" duration-ms="3950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_BankTest@10a9d961]" started-at="2024-11-10T05:47:22Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:47:36Z" duration-ms="13739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[km]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mk]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[600100]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[044-000-0008]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[38]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_BankTest@10a9d961]" started-at="2024-11-10T05:47:36Z" name="Browser_Login" finished-at="2024-11-10T05:47:41Z" duration-ms="5093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_BankTest@10a9d961]" started-at="2024-11-10T05:47:41Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:47:55Z" duration-ms="13921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kjdfsskq]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[600100]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[044-000-0009]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[39]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_BankTest@10a9d961]" started-at="2024-11-10T05:47:55Z" name="Browser_Login" finished-at="2024-11-10T05:48:01Z" duration-ms="6287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_BankTest@10a9d961]" started-at="2024-11-10T05:48:01Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:48:18Z" duration-ms="16736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hregbkj]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bjhdfj]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[600100]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[044-000-0010]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[test3@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+      </class> <!-- com.TestCases.ACME_BankTest -->
+      <class name="com.TestCases.ACMELogin">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.TestCases.ACMELogin@1458ed9c]" started-at="2024-11-10T05:46:49Z" name="startReport" finished-at="2024-11-10T05:46:49Z" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="testinputs()[pri:0, instance:com.TestCases.ACMELogin@1458ed9c]" started-at="2024-11-10T05:46:49Z" name="testinputs" finished-at="2024-11-10T05:46:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinputs -->
+        <test-method is-config="true" signature="testinputs()[pri:0, instance:com.TestCases.ACME_BankTest@10a9d961]" started-at="2024-11-10T05:46:49Z" name="testinputs" finished-at="2024-11-10T05:46:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinputs -->
+        <test-method is-config="true" signature="testinputs()[pri:0, instance:com.TestCases.ACME_VendorTest@130e116b]" started-at="2024-11-10T05:46:49Z" name="testinputs" finished-at="2024-11-10T05:46:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinputs -->
+        <test-method is-config="true" signature="testinputs()[pri:0, instance:com.TestCases.ACME_DownloadResouceReportTest@5ddf0d24]" started-at="2024-11-10T05:46:49Z" name="testinputs" finished-at="2024-11-10T05:46:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinputs -->
+        <test-method is-config="true" signature="testinputs()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:46:49Z" name="testinputs" finished-at="2024-11-10T05:46:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinputs -->
+        <test-method is-config="true" signature="report()[pri:0, instance:com.TestCases.ACMELogin@1458ed9c]" started-at="2024-11-10T05:46:49Z" name="report" finished-at="2024-11-10T05:46:49Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACMELogin@1458ed9c]" started-at="2024-11-10T05:46:49Z" name="Browser_Login" finished-at="2024-11-10T05:46:53Z" duration-ms="3632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACMELogin@1458ed9c]" started-at="2024-11-10T05:46:53Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:46:57Z" duration-ms="4357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACMELogin@1458ed9c]" started-at="2024-11-10T05:46:57Z" name="Browser_Login" finished-at="2024-11-10T05:47:00Z" duration-ms="2977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="testinputs()[pri:0, instance:com.TestCases.ACMELogin@1458ed9c]" started-at="2024-11-10T05:47:00Z" name="testinputs" finished-at="2024-11-10T05:47:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinputs -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:com.TestCases.ACMELogin@1458ed9c]" started-at="2024-11-10T05:58:45Z" name="stopReport" finished-at="2024-11-10T05:58:46Z" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.TestCases.ACMELogin -->
+      <class name="com.TestCases.ACME_SearchVendorTest">
+        <test-method is-config="true" signature="report()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:48:26Z" name="report" finished-at="2024-11-10T05:48:26Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:48:26Z" name="Browser_Login" finished-at="2024-11-10T05:48:37Z" duration-ms="10447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:48:37Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:48:51Z" duration-ms="14625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Blue Lagoon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:48:51Z" name="Browser_Login" finished-at="2024-11-10T05:49:01Z" duration-ms="9668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:49:01Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:49:17Z" duration-ms="15489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Clipboard Papers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:49:17Z" name="Browser_Login" finished-at="2024-11-10T05:49:21Z" duration-ms="4685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:49:21Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:49:34Z" duration-ms="13167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Copiers and More]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:49:34Z" name="Browser_Login" finished-at="2024-11-10T05:49:42Z" duration-ms="7447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:49:42Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:50:04Z" duration-ms="21982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Godmother Catering]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:50:04Z" name="Browser_Login" finished-at="2024-11-10T05:50:15Z" duration-ms="11355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:50:15Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:50:28Z" duration-ms="13228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Green Restaurant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:50:28Z" name="Browser_Login" finished-at="2024-11-10T05:50:41Z" duration-ms="12193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:50:41Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:50:54Z" duration-ms="13725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IT Works]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:50:54Z" name="Browser_Login" finished-at="2024-11-10T05:50:59Z" duration-ms="5034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:50:59Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:51:15Z" duration-ms="16132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jayachandran textails]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:51:15Z" name="Browser_Login" finished-at="2024-11-10T05:51:26Z" duration-ms="10776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:51:26Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:51:41Z" duration-ms="14442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kjghkdfg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:51:41Z" name="Browser_Login" finished-at="2024-11-10T05:51:48Z" duration-ms="7430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:51:48Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:52:01Z" duration-ms="13216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:52:01Z" name="Browser_Login" finished-at="2024-11-10T05:52:07Z" duration-ms="6061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:52:07Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:52:24Z" duration-ms="16154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Maxitronic Limited]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:52:24Z" name="Browser_Login" finished-at="2024-11-10T05:52:30Z" duration-ms="6678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:52:30Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:52:43Z" duration-ms="12989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Megatronic Incorporated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:52:43Z" name="Browser_Login" finished-at="2024-11-10T05:52:51Z" duration-ms="7913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:52:51Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:53:06Z" duration-ms="14495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Minitronic Systems]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:53:06Z" name="Browser_Login" finished-at="2024-11-10T05:53:16Z" duration-ms="10450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:53:16Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:53:34Z" duration-ms="17460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Office Supplies]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:53:34Z" name="Browser_Login" finished-at="2024-11-10T05:53:47Z" duration-ms="13238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:53:47Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:54:02Z" duration-ms="15419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Purple Store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:54:02Z" name="Browser_Login" finished-at="2024-11-10T05:54:08Z" duration-ms="5402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:54:08Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:54:22Z" duration-ms="14400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Red Communications]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:54:22Z" name="Browser_Login" finished-at="2024-11-10T05:54:28Z" duration-ms="6372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:54:28Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:54:43Z" duration-ms="14209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[refklewh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:54:43Z" name="Browser_Login" finished-at="2024-11-10T05:54:49Z" duration-ms="6392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:54:49Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:55:03Z" duration-ms="14222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Relience Trends]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:55:03Z" name="Browser_Login" finished-at="2024-11-10T05:55:09Z" duration-ms="5968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:55:09Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:55:23Z" duration-ms="13732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfndskhf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:55:23Z" name="Browser_Login" finished-at="2024-11-10T05:55:30Z" duration-ms="7465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:55:30Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:55:49Z" duration-ms="18144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SK Textails]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:55:49Z" name="Browser_Login" finished-at="2024-11-10T05:55:56Z" duration-ms="6971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:55:56Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:56:10Z" duration-ms="14929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Softing Company]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:56:10Z" name="Browser_Login" finished-at="2024-11-10T05:56:16Z" duration-ms="5615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:56:16Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:56:31Z" duration-ms="15119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Softix Providers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:56:31Z" name="Browser_Login" finished-at="2024-11-10T05:56:48Z" duration-ms="17244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:56:48Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:57:11Z" duration-ms="22781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Softload Export]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:57:11Z" name="Browser_Login" finished-at="2024-11-10T05:57:19Z" duration-ms="8222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:57:19Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:57:33Z" duration-ms="14038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Star Software]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:57:33Z" name="Browser_Login" finished-at="2024-11-10T05:57:39Z" duration-ms="5748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:57:39Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:57:58Z" duration-ms="18760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Technology Lake]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+        <test-method is-config="true" signature="Browser_Login()[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:57:58Z" name="Browser_Login" finished-at="2024-11-10T05:58:14Z" duration-ms="16175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Login -->
+        <test-method signature="ACME_LoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.ACME_SearchVendorTest@e383572]" started-at="2024-11-10T05:58:14Z" name="ACME_LoginTest" data-provider="datafetch" finished-at="2024-11-10T05:58:30Z" duration-ms="15354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testotest2025@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Telephone Systems]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACME_LoginTest -->
+      </class> <!-- com.TestCases.ACME_SearchVendorTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

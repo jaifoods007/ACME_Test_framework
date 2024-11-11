@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.TestCases.ACME_VendorTest">
+        <methods>
+          <include name="report"/>
+          <include name="stopReport"/>
+          <include name="startReport"/>
+          <include name="ACME_LoginTest" invocation-numbers="0"/>
+          <include name="testinputs"/>
+          <include name="Browser_Login"/>
+        </methods>
+      </class> <!-- com.TestCases.ACME_VendorTest -->
+      <class name="com.TestCases.ACME_DownloadResouceReportTest">
+        <methods>
+          <include name="report"/>
+          <include name="ACME_LoginTest" invocation-numbers="0"/>
+          <include name="stopReport"/>
+          <include name="startReport"/>
+          <include name="testinputs"/>
+          <include name="Browser_Login"/>
+        </methods>
+      </class> <!-- com.TestCases.ACME_DownloadResouceReportTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
